@@ -2,7 +2,7 @@
 import I18N from 'telegraf-i18n'
 import * as tt from 'telegraf/typings/telegram-types.d'
 import { User } from '../models'
-import { InstanceType } from 'typegoose'
+// import { InstanceType } from '@typegoose/typegoose'
 
 declare module 'telegraf' {
   export class ContextMessageUpdate {

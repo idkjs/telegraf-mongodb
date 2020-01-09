@@ -1,6 +1,5 @@
 // Dependencies
-import { prop, Typegoose } from 'typegoose'
-
+import { prop, Typegoose,getModelForClass } from '@typegoose/typegoose'
 export class User extends Typegoose {
   @prop({ required: true, index: true, unique: true })
   id: number

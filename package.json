@@ -19,12 +19,12 @@
     "nodemon": "^2.0.1"
   },
   "dependencies": {
-    "@typegoose/typegoose": "^6.1.5",
+    "@typegoose/typegoose": "6.2.1",
     "@types/dotenv": "^8.2.0",
-    "@types/mongoose": "^5.5.32",
+    "@types/mongoose": "^5.5.41",
     "@types/node": "^12.12.12",
     "dotenv": "^8.2.0",
-    "mongoose": "^5.7.12",
+    "mongoose": "^5.8.6",
     "telegraf": "^3.33.3",
     "telegraf-i18n": "^6.6.0",
     "typescript": "^3.7.2"
